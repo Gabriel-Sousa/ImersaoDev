@@ -1,0 +1,145 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-03-mentalista.png');
+    background-color: #000000;
+    background-size: cover;
+    background-position:  center;
+    background-repeat: no-repeat;
+}
+  
+.container {
+    text-align: center;
+    padding: 20px;
+}
+  
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+  
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 200px;
+}
+  
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+}
+
+@media (max-height: 500px) {
+    body {
+      min-height:800px;
+    }
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #202024;
+    border: 3px solid #8257e6; 
+    color: #ffffff;
+    width: 500px;
+    height: 300px;
+}
+input{
+    width: 270px;
+    height: 40px;
+    padding: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: inherit;
+    border-radius: 0;
+    border: none;
+    margin-bottom: 20px;
+}
+button{
+    width: 300px;
+    height: 40px;
+    font-family: inherit;
+    border-radius: 0;
+    border: none;
+    cursor: pointer;
+    background-color: #ff7200;
+    font-size: 30px;
+    
+}
+label{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    width: 330px;
+    height: 80px;
+    margin: 0;
+    margin-top: 20px;
+}
+
+label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9A30DD;
+    border: 0;
+    margin-top: 50px;
+    width: 330px;
+    height: 50px;
+    font-size: 25px;
+    font-family: 'Roboto Mono',monospace;
+}
+
+input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    width: 300px;
+    height: 60px;
+    padding: 0px 15px 0px 15px;
+    font-size: 25px;
+    font-family: 'Roboto Mono',monospace;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    background-color: #ff7200;
+    width: 330px;
+    height: 60px;
+    padding: 0;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Roboto Mono',monospace;
+    cursor: pointer;
+}
+*/

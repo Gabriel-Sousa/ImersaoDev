@@ -1,0 +1,81 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #8257e6;
+    background-size: cover;
+    background-position:  center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.container {
+    text-align: center;
+    padding: 20px;
+}
+  
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+  
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 200px;
+}
+  
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+}
+
+@media (max-height: 500px) {
+    body {
+      min-height:800px;
+    }
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: #202024;
+    border: 3px solid #8257e6; 
+    color: #ffffff;
+    width: 500px;
+    height: 300px;
+}
+input{
+    width: 270px;
+    height: 40px;
+    padding: 0px 15px;
+    font-family: inherit;
+    border-radius: 0;
+    border: none;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 28px;
+}
+button{
+    width: 300px;
+    height: 40px;
+    font-family: inherit;
+    border-radius: 0;
+    border: none;
+    cursor: pointer;
+    background-color: #ff7200;
+    font-size: 30px;
+    
+}
+label{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
